@@ -1,4 +1,84 @@
-body
-{
-    background-color:rgb(235, 242, 255)
+.sedgwick-ave-display-regular {
+  font-family: "Sedgwick Ave Display", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin: 0;
+    padding: 0; 
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 48px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px -2px rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 10;
+}
+nav > ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: #163A63;
+    font-weight: 600;
+}
+nav a:hover{
+    color: #DF5434;
+}
+
+figure{
+    margin: 0;
+
+}
+figure img{
+    height: 2.5em;
+    width: auto;
+    display: block;
+}
+.sr-only{
+    display: none;
+}
+
+.hero {
+	position: relative;
+	width: 100%;
+	min-height: 480px;
+	padding: 80px 20px;
+	
+	background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url('../img/bg-hero.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #ffffff;
+}
+
+.hero h1 {
+	font-family: 'Sedgwick Ave Display', cursive;
+	font-size: 100px;
+	text-transform: uppercase;   /* Kriter: text-transform uppercase */
+	letter-spacing: 2px;          /* Kriter: letter-spacing */
+	word-spacing: 4px;            /* Kriter: word-spacing */
+	margin-bottom: 20px;
+	line-height: 1.2;             /* Kriter: line-height */
 }
