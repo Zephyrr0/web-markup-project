@@ -15,13 +15,15 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body id="home">
     <header>
         <figure>
             <a href="index.html">
                 <img src="img/logo.png" alt="VolleyBeginner Logo" title="VolleyBeginner Logo">
             </a>
         </figure>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger">&#9776;</label>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -33,11 +35,51 @@
             </ul>
         </nav>
     </header>
-    <section class="hero">
-		<h1>Master The Court</h1>
-		<p>Your simple guide to starting your volleyball journey: Learn the history, understand the rules, find your position, and get the right gear.</p>
-		<a href="#topics" class="btn-hero">Start Learning</a>
+<main>
+<section id="hero" class="hero">
+	<img src="img/bg-hero.jpg" alt="A hand holding the volleyball, background is floor of a volleyball court" title="Volleyball Court" class="hero-bg">
+	<h1>Master The Court</h1>
+	<p>Your simple guide to starting your volleyball journey: Learn the history, understand the rules, find your position, and get the right gear.</p>
+	<a href="#topics" class="btn-hero">Start Learning</a>
+</section>
+
+    <section id="topics" class="learning-cards">
+		<h2>What do you want to learn first?</h2>
+
+		<section class="grid-container">
+			<article>
+				<h3>History &amp; Evolution</h3>
+				<p>Discover how volleyball was invented and how key rules have changed over time to shape the modern game.</p>
+				<a href="history.html">History &rarr;</a>
+			</article>
+
+			<article>
+				<h3>Rules of Volleyball</h3>
+				<p>Learn how point system works, what players are not allowed to do, and follow the score without getting confused.</p>
+				<a href="rules.html">Rules &rarr;</a>
+			</article>
+
+			<article>
+				<h3>Positions &amp; Rotation</h3>
+				<p>Understand where you need to stand on the court and why everyone switches places during the game.</p>
+				<a href="positions.html">Positions &rarr;</a>
+			</article>
+
+			<article>
+				<h3>Gear</h3>
+				<p>Find out what gear you need to stay safe and play your best.</p>
+				<a href="gear.html">Gear &rarr;</a>
+			</article>
+		</section>
 	</section>
-    
+</main>
+<footer>
+		<p>&copy; 2026 VolleyBeginner. All rights reserved.</p>
+		<nav>
+			<ul>
+				<li><a href="#">Back to Top &uarr;</a></li>
+			</ul>
+		</nav>
+</footer>
 </body>
 </html>
