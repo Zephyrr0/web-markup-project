@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VolleyBeginner</title>
+    <title>History &amp; Evolution - VolleyBeginner</title>
 
     <meta name="author" content="Deniz Bolun">
-    <meta name="description" content="VolleyBeginner is your basic beginner guide to learning volleyball rules, player positions, court rotations, and essential gear.">
-    <meta name="keywords" content="Volleyball, Beginner, Gear, Rules, Positions">
+    <meta name="description" content="Discover how volleyball was invented and how key rules changed over time to shape the modern game.">
+    <meta name="keywords" content="Volleyball, History, Evolution, Rules, Mintonette, FIVB">
     
     <link rel="icon" type="image/png" href="img/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,19 +15,20 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body id="history">
     <header>
         <figure>
             <a href="index.html">
                 <img src="img/logo.png" alt="VolleyBeginner Logo" title="VolleyBeginner Logo">
             </a>
+            <figcaption class="sr-only">VolleyBeginner</figcaption>
         </figure>
         <input type="checkbox" id="menu-toggle">
         <label for="menu-toggle" class="hamburger">&#9776;</label>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="history.html">History</a></li>
+                <li><a href="history.html" class="active">History</a></li>
                 <li><a href="rules.html">Rules</a></li>
                 <li><a href="positions.html">Positions</a></li>
                 <li><a href="gear.html">Gear</a></li>
@@ -36,6 +37,108 @@
         </nav>
     </header>
 <main>
+    <h1>History &amp; Evolution</h1>
+
+        <section class="history-card">
+            <h2>The History of Volleyball</h2>
+
+            <figure class="history-photo">
+                <img src="img/history-ball.jpg" alt="Vintage volleyball ball resting on court line" title="Classic Volleyball">
+            </figure>
+
+            <p class="history-intro">
+                Volleyball was invented over 100 years ago as a gentle, no-contact game. Over time, leaders changed the rules to make it faster, safer, and much more exciting to watch.
+            </p>
+
+            <h3>How It Started</h3>
+
+            <article class="timeline-item">
+                <h4>1. William G. Morgan and &quot;Mintonette&quot; (1895)</h4>
+                <ul>
+                    <li>Invented in Massachusetts by William G. Morgan as a safe alternative to basketball.</li>
+                    <li>Combined ideas from tennis (the net), handball (using hands), and baseball (turns).</li>
+                    <li>Renamed to &quot;Volley Ball&quot; in 1896 because players volleyed the ball in the air. Officially became &quot;Volleyball&quot; in 1952.</li>
+                </ul>
+            </article>
+
+            <article class="timeline-item">
+                <h4>2. The Set &amp; Spike (1916)</h4>
+                <ul>
+                    <li>Players in the Philippines invented the high pass and smash (&quot;Filipino bomb&quot;).</li>
+                    <li>Because spikes were too strong, new limits were set: 6 players per side and only 3 touches allowed.</li>
+                </ul>
+            </article>
+
+            <article class="timeline-item">
+                <h4>3. FIVB &amp; The Olympics</h4>
+                <ul>
+                    <li>World federation (FIVB) formed in 1947.</li>
+                    <li>Entered the Olympic Games at Tokyo 1964; beach volleyball joined in 1996.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="history-card rules-card">
+            <h2>How Key Rules Changed Over Time</h2>
+
+            <figure class="timeline-figure">
+                <img src="img/timeline.png" alt="Timeline of volleyball rule changes from 1995 to present" title="Volleyball Rules Timeline">
+            </figure>
+
+            <article class="rule-box">
+                <h3>Touching with Feet</h3>
+                <ul>
+                    <li><strong>Reform:</strong> 1995</li>
+                    <li class="then"><strong>Then:</strong> Touching the ball below the waist was an automatic foul.</li>
+                    <li class="now"><strong>Now:</strong> The ball can touch any part of your body, including feet.</li>
+                    <li><strong>Why:</strong> Lets players kick the ball off the floor for impossible defensive saves.</li>
+                </ul>
+            </article>
+
+            <article class="rule-box">
+                <h3>The Libero Specialist</h3>
+                <ul>
+                    <li><strong>Reform:</strong> 1998</li>
+                    <li class="then"><strong>Then:</strong> All players had to attack at the net and defend in the back row.</li>
+                    <li class="now"><strong>Now:</strong> A defensive expert in a different shirt plays back-row only.</li>
+                    <li><strong>Why:</strong> Helps teams defend hard spikes and keeps rallies alive longer.</li>
+                </ul>
+            </article>
+
+            <article class="rule-box">
+                <h3>Scoring System</h3>
+                <ul>
+                    <li><strong>Reform:</strong> 1999</li>
+                    <li class="then"><strong>Then:</strong> Only the serving team could earn a point. Sets took hours.</li>
+                    <li class="now"><strong>Now:</strong> Every single play gives a point to someone.</li>
+                    <li><strong>Why:</strong> Keeps matches fast and predictable for television.</li>
+                </ul>
+            </article>
+
+            <article class="rule-box">
+                <h3>Net Serves</h3>
+                <ul>
+                    <li><strong>Reform:</strong> 2000</li>
+                    <li class="then"><strong>Then:</strong> If a serve touched the net, the rally stopped immediately.</li>
+                    <li class="now"><strong>Now:</strong> If the ball hits the net and drops over, play continues.</li>
+                    <li><strong>Why:</strong> Rewards fast jump serves and stops unnecessary whistle breaks.</li>
+                </ul>
+            </article>
+
+            <article class="rule-box">
+                <h3>Cameras &amp; Fair Play</h3>
+                <ul>
+                    <li><strong>Reform:</strong> Modern Era</li>
+                    <li class="then"><strong>Then:</strong> Calls depended only on human referee eyesight.</li>
+                    <li class="now"><strong>Now:</strong> Video cameras check touches and honest players earn green cards.</li>
+                    <li><strong>Why:</strong> Removes referee mistakes and rewards honesty.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="next-btn-container">
+            <a href="rules.html" class="btn-next">Rules &rarr;</a>
+        </section>
 
 </main>
 <footer>
