@@ -2,4 +2,4 @@ Student name: Deniz Bolun
 Student number: 750961
 Student class: IT1A
 GitHub Repository: https://github.com/Zephyrr0/web-markup-project
-GitHub Pages URL: https://github.com/Zephyrr0
+GitHub Pages URL: https://zephyrr0.github.io/web-markup-project/
