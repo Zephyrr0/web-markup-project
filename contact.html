@@ -1,111 +1,131 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Contact Us - VolleyBeginner</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - VolleyBeginner</title>
 
-	<meta name="author" content="Deniz Bolun">
-	<meta name="description" content="Have questions or suggestions about volleyball? Get in touch with us using our contact form.">
-	<meta name="keywords" content="Volleyball, Contact, Feedback, Support, Form">
-	
-	<link rel="icon" type="image/png" href="img/favicon.png">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-<body id="contact">
-	<header>
-		<figure>
-			<a href="index.html">
-				<img src="img/logo.png" alt="VolleyBeginner Logo" title="VolleyBeginner Logo">
-			</a>
-		</figure>
-		<input type="checkbox" id="menu-toggle">
-		<label for="menu-toggle" class="hamburger">&#9776;</label>
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="history.html">History</a></li>
-				<li><a href="rules.html">Rules</a></li>
-				<li><a href="positions.html">Positions</a></li>
-				<li><a href="gear.html">Gear</a></li>
-				<li><a href="contact.html" class="active">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
-<main>
-		<h1>Contact Us</h1>
-		<p class="contact-intro">
-			Do you have a question or suggestion? Let us know! You can use form below to contact us. We will return to you in 3 work days via email.
-		</p>
+    <meta name="author" content="Deniz Bolun" />
+    <meta
+      name="description"
+      content="Have questions or suggestions about volleyball? Get in touch with us using our contact form."
+    />
+    <meta
+      name="keywords"
+      content="Volleyball, Contact, Feedback, Support, Form"
+    />
 
-		<section class="contact-card">
-			<h2>Send Us a Message</h2>
-			<form action="#" method="post" class="contact-form">
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body id="contact">
+    <header>
+      <figure>
+        <a href="index.html">
+          <img
+            src="img/logo.png"
+            alt="VolleyBeginner Logo"
+            title="VolleyBeginner Logo"
+          />
+        </a>
+      </figure>
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="hamburger">&#9776;</label>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="history.html">History</a></li>
+          <li><a href="rules.html">Rules</a></li>
+          <li><a href="positions.html">Positions</a></li>
+          <li><a href="gear.html">Gear</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Contact Us</h1>
+      <p class="contact-intro">
+        Do you have a question or suggestion? Let us know! You can use form
+        below to contact us. We will return to you in 3 work days via email.
+      </p>
 
-				<fieldset class="form-row name-row">
-					<legend>Personal Details</legend>
-					<p class="form-field name-field">
-						<label for="first-name">Name*</label>
-						<input type="text" id="first-name" name="first_name" required>
-					</p>
-					<p class="form-field infix-field">
-						<label for="infix">Infix</label>
-						<input type="text" id="infix" name="infix">
-					</p>
-					<p class="form-field surname-field">
-						<label for="surname">Surname*</label>
-						<input type="text" id="surname" name="surname" required>
-					</p>
-				</fieldset>
+      <section class="contact-card">
+        <h2>Send Us a Message</h2>
+        <form action="https://next-app-router-playground-kohl.vercel.app/api/contact" method="post" class="contact-form">
+          <fieldset class="form-row name-row">
+            <legend>Personal Details</legend>
+            <p class="form-field name-field">
+              <label for="first-name">Name<span>*</span></label>
+              <input type="text" id="first-name" name="first_name" required />
+            </p>
+            <p class="form-field infix-field">
+              <label for="infix">Infix</label>
+              <input type="text" id="infix" name="infix" />
+            </p>
+            <p class="form-field surname-field">
+              <label for="surname">Surname<span>*</span></label>
+              <input type="text" id="surname" name="surname" required />
+            </p>
+          </fieldset>
 
-				<p class="form-field">
-					<label for="email">Email*</label>
-					<input type="email" id="email" name="email" placeholder="example@gmail.com" required>
-				</p>
+          <p class="form-field">
+            <label for="email">Email<span>*</span></label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="example@gmail.com"
+              required
+            />
+          </p>
 
-				<p class="form-field">
-					<label for="phone">Phone Number (optional)</label>
-					<input type="tel" id="phone" name="phone">
-				</p>
+          <p class="form-field">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" />
+          </p>
 
-				<fieldset class="form-row address-row">
-					<legend>Address Details</legend>
-					<p class="form-field city-field">
-						<label for="city">City*</label>
-						<input type="text" id="city" name="city" required>
-					</p>
-					<p class="form-field postal-field">
-						<label for="postal-code">Postal code*</label>
-						<input type="text" id="postal-code" name="postal_code" required>
-					</p>
-					<p class="form-field house-field">
-						<label for="house-number">House number*</label>
-						<input type="text" id="house-number" name="house_number" required>
-					</p>
-				</fieldset>
+          <fieldset class="form-row address-row">
+            <legend>Address Details</legend>
+            <p class="form-field city-field">
+              <label for="city">City<span>*</span></label>
+              <input type="text" id="city" name="city" required />
+            </p>
+            <p class="form-field postal-field">
+              <label for="postal-code">Postal code<span>*</span></label>
+              <input type="text" id="postal-code" name="postal_code" required />
+            </p>
+            <p class="form-field house-field">
+              <label for="house-number">House number<span>*</span></label>
+              <input
+                type="text"
+                id="house-number"
+                name="house_number"
+                required
+              />
+            </p>
+          </fieldset>
 
-				<p class="form-field message-field">
-					<label for="message">Your Message*</label>
-					<textarea id="message" name="message" rows="6" required></textarea>
-				</p>
+          <p class="form-field message-field">
+            <label for="message">Your Message<span>*</span></label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+          </p>
 
-				<p class="submit-container">
-					<input type="submit" value="Submit" class="btn-submit">
-				</p>
-
-			</form>
-		</section>
-</main>
-<footer>
-		<p>&copy; 2026 VolleyBeginner. All rights reserved.</p>
-		<nav>
-			<ul>
-				<li><a href="#">Back to Top &uarr;</a></li>
-			</ul>
-		</nav>
-</footer>
-	<aside class="cookies-banner">
-		<p>This website uses cookies to ensure you get the best experience.</p>
-	</aside>
-</body>
+          <p class="submit-container">
+            <input type="submit" value="Submit" class="btn-submit" />
+          </p>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2026 VolleyBeginner. All rights reserved.</p>
+      <nav>
+        <ul>
+          <li><a href="#">Back to Top &uarr;</a></li>
+        </ul>
+      </nav>
+    </footer>
+    <aside class="cookies-banner">
+      <p>This website uses cookies to ensure you get the best experience.</p>
+    </aside>
+  </body>
 </html>
