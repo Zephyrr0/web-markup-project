@@ -98,7 +98,7 @@ nav a.active {
   object-fit: cover;
   object-position: 65% 25%;
   z-index: -1;
-  filter: brightness(0.70);
+  filter: brightness(0.7);
 }
 
 #home .hero h1 {
@@ -222,7 +222,7 @@ nav a.active {
 }
 
 #history h1 {
-  font-family: 'Sedgwick Ave Display', cursive;
+  font-family: "Sedgwick Ave Display", cursive;
   font-size: 46px;
   font-weight: 700;
   color: #df5434;
@@ -394,7 +394,7 @@ nav a.active {
 }
 
 #rules h1 {
-  font-family: 'Sedgwick Ave Display', cursive;
+  font-family: "Sedgwick Ave Display", cursive;
   font-size: 46px;
   font-weight: 700;
   color: #df5434;
@@ -490,7 +490,7 @@ nav a.active {
 }
 
 #positions h1 {
-  font-family: 'Sedgwick Ave Display', cursive;
+  font-family: "Sedgwick Ave Display", cursive;
   font-size: 46px;
   font-weight: 700;
   color: #df5434;
@@ -726,7 +726,7 @@ nav a.active {
 }
 
 #gear h1 {
-  font-family: 'Sedgwick Ave Display', cursive;
+  font-family: "Sedgwick Ave Display", cursive;
   font-size: 46px;
   font-weight: 700;
   color: #df5434;
@@ -831,7 +831,7 @@ nav a.active {
 }
 
 #contact h1 {
-  font-family: 'Sedgwick Ave Display', cursive;
+  font-family: "Sedgwick Ave Display", cursive;
   font-size: 60px;
   font-weight: 700;
   color: #df5434;
@@ -886,6 +886,10 @@ nav a.active {
   width: 100%;
 }
 
+#contact .title-field {
+  flex: 2;
+}
+
 #contact .name-field {
   flex: 5;
 }
@@ -898,19 +902,7 @@ nav a.active {
   flex: 5;
 }
 
-#contact .city-field {
-  flex: 5;
-}
-
-#contact .postal-field {
-  flex: 3;
-}
-
-#contact .house-field {
-  flex: 3;
-}
-
-#contact label span{
+#contact label span {
   color: #df5434;
 }
 
@@ -932,6 +924,7 @@ nav a.active {
   text-align: left;
 }
 
+#contact select,
 #contact input[type="text"],
 #contact input[type="email"],
 #contact input[type="tel"],
@@ -951,6 +944,7 @@ nav a.active {
     background-color 0.2s ease;
 }
 
+#contact select:focus,
 #contact input[type="text"]:focus,
 #contact input[type="email"]:focus,
 #contact input[type="tel"]:focus,
@@ -959,7 +953,8 @@ nav a.active {
   border-color: #df5434;
 }
 
-#contact input::placeholder {
+#contact input::placeholder,
+#contact textarea::placeholder {
   color: #9ca3af;
   font-weight: 400;
 }
@@ -1036,7 +1031,7 @@ footer nav a:hover {
   color: #df5434;
 }
 
-footer nav a:active{
+footer nav a:active {
   color: #000;
 }
 
@@ -1197,8 +1192,8 @@ footer nav a:active{
   }
 
   #gear .gear-photo img {
-		max-height: 220px;
-	}
+    max-height: 220px;
+  }
 
   #gear .gear-card h2 {
     font-size: 20px;
